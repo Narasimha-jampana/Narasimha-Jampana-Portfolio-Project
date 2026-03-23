@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🌐 Narasimha Jampana — Personal Portfolio Website
 
-## Project info
+> A clean, responsive personal portfolio website built to showcase my skills, projects, and experience as a B.Tech CSE student.
 
-**URL**: https://lovable.dev/projects/a649a6c0-4955-4931-92d5-8dcdf5c3997a
+🔗 **Live Demo:** [narasimha-jampana.web.app](https://narasimha-jampana.web.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📸 Preview
 
-**Use Lovable**
+<!-- Add a screenshot of your portfolio here -->
+> _Add a screenshot: drag and drop your portfolio screenshot here on GitHub_
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a649a6c0-4955-4931-92d5-8dcdf5c3997a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- 👤 **About Me** — Introduction, background, and career goals
+- 🛠️ **Skills** — Tech stack with visual skill indicators
+- 💼 **Projects** — Showcase of real-world projects with live links
+- 📬 **Contact Form** — Visitors can reach out directly
+- 📄 **Resume Download** — One-click resume download
+- 📱 **Fully Responsive** — Works perfectly on mobile, tablet, and desktop
+- ⚡ **Fast Loading** — Hosted on Firebase for blazing fast performance
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+| Technology | Usage |
+|------------|-------|
+| HTML5 | Structure & content |
+| CSS3 | Styling, animations, responsive layout |
+| JavaScript | Interactivity & dynamic content |
+| Python | Backend / scripting support |
+| Firebase Hosting | Deployment & hosting |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+portfolio/
+├── index.html        # Main HTML file
+├── style.css         # Stylesheet
+├── script.js         # JavaScript logic
+├── assets/
+│   ├── images/       # Profile photo, project screenshots
+│   └── resume.pdf    # Downloadable resume
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+To run this project locally:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Narasimha-jampana/Narasimha-Jampana-Portfolio-Project.git
 
-## What technologies are used for this project?
+# 2. Navigate into the folder
+cd Narasimha-Jampana-Portfolio-Project
 
-This project is built with:
+# 3. Open in browser
+open index.html
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+> No installation or dependencies required — it runs directly in the browser!
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/a649a6c0-4955-4931-92d5-8dcdf5c3997a) and click on Share -> Publish.
+## 🌍 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+This project is deployed using **Firebase Hosting**.
 
-Yes, you can!
+```bash
+# Install Firebase CLI
+npm install -g firebase-tools
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Login and deploy
+firebase login
+firebase deploy
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📬 Contact
+
+**Subba Narasimha Reddy Jampana**
+
+- 🌐 Portfolio: [narasimha-jampana.web.app](https://narasimha-jampana.web.app)
+- 💻 GitHub: [@Narasimha-jampana](https://github.com/Narasimha-jampana)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please consider giving it a **⭐ star** on GitHub — it means a lot!
+
+---
+
+_Built with ❤️ by Narasimha Jampana_
