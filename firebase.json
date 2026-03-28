@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "narasimha-jampana",
     "public": "dist",
     "ignore": [
       "firebase.json",

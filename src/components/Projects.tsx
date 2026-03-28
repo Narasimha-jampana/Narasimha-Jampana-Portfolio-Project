@@ -109,6 +109,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
+  // Version: 1.0.5 - Forcing hash update
   const projects = [
     {
       title: "B-Mart Supermarket App",
@@ -158,6 +159,7 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto px-6">
+      <span className="hidden">v1.0.6</span>
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
           Featured Projects
