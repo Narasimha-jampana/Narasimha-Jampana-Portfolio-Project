@@ -1,4 +1,4 @@
-import { ExternalLink, Github, ShoppingCart, Bot, Code2, Activity } from 'lucide-react';
+import { ExternalLink, Github, ShoppingCart, Bot, Code2, Activity, Citrus } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -154,12 +154,23 @@ const Projects = () => {
       delay: 800,
       codeUrl: "https://github.com/Narasimha-jampana/SNL-Webpage",
       demoUrl: "https://snl-voice.web.app"
+    },
+    {
+      title: "Fresh Juice Showcase",
+      description: "A vibrant, premium product showcase for a fresh juice brand, featuring smooth landing page transitions and interactive flavor profiles.",
+      features: ["Dynamic flavor selection", "Premium animations", "Interactive product cards", "Mobile-responsive showcase", "Modern aesthetic"],
+      technologies: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
+      icon: <Citrus className="h-8 w-8 text-white" />,
+      gradient: "bg-gradient-to-br from-yellow-400 to-orange-500",
+      delay: 1000,
+      codeUrl: "https://github.com/Narasimha-jampana/Fresh-Juice",
+      demoUrl: "https://fresh-juice-showcase-premium.web.app"
     }
   ];
 
   return (
     <div className="container mx-auto px-6">
-      <span className="hidden">v1.0.6</span>
+      <span className="hidden">v1.0.7</span>
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
           Featured Projects
