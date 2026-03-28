@@ -111,37 +111,37 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "Supermarket Management System",
-      description: "A comprehensive digital solution for supermarket inventory tracking, professional billing, and staff management to streamline daily retail operations.",
-      features: ["Inventory tracking", "Automated billing", "Sales analytics", "User management", "Stock alerts"],
-      technologies: ["React", "Node.js", "Firebase", "Tailwind CSS"],
+      title: "B-Mart Supermarket App",
+      description: "A premium, mobile-first supermarket web app for B-Mart featuring modern design, smart product filtering, and a seamless WhatsApp-based ordering system.",
+      features: ["Smart product filtering", "WhatsApp ordering", "Mobile-first design", "Inventory tracking", "Real-time stock updates"],
+      technologies: ["React", "Firebase", "Tailwind CSS", "WhatsApp API"],
       icon: <ShoppingCart className="h-8 w-8 text-white" />,
       gradient: "bg-gradient-to-br from-green-500 to-emerald-600",
       delay: 200,
-      codeUrl: "https://github.com/Narasimha-jampana/Supermarket-System",
-      demoUrl: "https://narasimha-jampana.web.app"
+      codeUrl: "https://github.com/Narasimha-jampana/B-Mart-supermart-",
+      demoUrl: "https://bmart-supermarket-app-9214a.web.app"
     },
     {
-      title: "AI Chatbot Assistant",
+      title: "Kali AI Assistant",
       description: "An intelligent conversational agent designed to provide instant support and accurate information using advanced natural language processing.",
       features: ["Instant responses", "NLP processing", "Context awareness", "Multilingual support", "API integration"],
       technologies: ["Python", "OpenAI", "React", "Flask"],
       icon: <Bot className="h-8 w-8 text-white" />, 
       gradient: "bg-gradient-to-br from-blue-500 to-indigo-600",
       delay: 400,
-      codeUrl: "https://github.com/Narasimha-jampana/AI-Chatbot",
-      demoUrl: "https://narasimha-jampana.web.app"
+      codeUrl: "https://github.com/Narasimha-jampana/Kali-Ai-Ai-chartbot-project-",
+      demoUrl: "https://kali-ai-nj.web.app"
     },
     {
-      title: "Multi-Language Code Converter",
+      title: "Code Conveter: Make Logic, Not Language",
       description: "A powerful developer utility that translates code snippets between different programming languages accurately while maintaining syntax integrity.",
       features: ["Multi-language support", "Syntax highlighting", "Real-time conversion", "Code optimization", "User-friendly interface"],
       technologies: ["JavaScript", "React", "PrismJS", "Node.js"],
       icon: <Code2 className="h-8 w-8 text-white" />,
       gradient: "bg-gradient-to-br from-purple-500 to-pink-600",
       delay: 600,
-      codeUrl: "https://github.com/Narasimha-jampana/Code-Converter",
-      demoUrl: "https://narasimha-jampana.web.app"
+      codeUrl: "https://github.com/Narasimha-jampana/Code-Conveter-Make-Logic-Not-Language-",
+      demoUrl: "https://code-converter-nj.web.app"
     },
     {
       title: "SLP Doctor - Voice Therapy",
@@ -151,8 +151,8 @@ const Projects = () => {
       icon: <Activity className="h-8 w-8 text-white" />,
       gradient: "bg-gradient-to-br from-orange-500 to-rose-600",
       delay: 800,
-      codeUrl: "https://github.com/Narasimha-jampana/SLP-Doctor",
-      demoUrl: "https://narasimha-jampana.web.app"
+      codeUrl: "https://github.com/Narasimha-jampana/SNL-Webpage",
+      demoUrl: "https://snl-voice.web.app"
     }
   ];
 
