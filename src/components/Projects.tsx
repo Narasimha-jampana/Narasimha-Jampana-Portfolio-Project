@@ -1,4 +1,4 @@
-import { ExternalLink, Github, ShoppingCart, CheckCircle, Bike } from 'lucide-react';
+import { ExternalLink, Github, ShoppingCart, Bot, Code2, Activity } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -111,37 +111,48 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "Shopping Market Bill Generation",
-      description: "A comprehensive Python application that generates detailed bills for shopping transactions. Features item management, pricing calculations, tax computation, and formatted receipt generation.",
-      features: ["Item inventory management", "Automated tax calculations", "Professional receipt formatting", "Customer data handling", "Transaction history tracking"],
-      technologies: ["Python", "File I/O", "Data Structures", "String Formatting"],
+      title: "Supermarket Management System",
+      description: "A comprehensive digital solution for supermarket inventory tracking, professional billing, and staff management to streamline daily retail operations.",
+      features: ["Inventory tracking", "Automated billing", "Sales analytics", "User management", "Stock alerts"],
+      technologies: ["React", "Node.js", "Firebase", "Tailwind CSS"],
       icon: <ShoppingCart className="h-8 w-8 text-white" />,
       gradient: "bg-gradient-to-br from-green-500 to-emerald-600",
       delay: 200,
-      codeUrl: "https://github.com/Narasimha-jampana",
-      demoUrl: ""
+      codeUrl: "https://github.com/Narasimha-jampana/Supermarket-System",
+      demoUrl: "https://narasimha-jampana.web.app"
     },
     {
-      title: "Voting Age Eligibility Checker",
-      description: "An interactive Python program that determines voting eligibility based on user input. Includes age verification, citizenship status validation, and personalized feedback messages.",
-      features: ["Age verification system", "Input validation and error handling", "User-friendly interface", "Comprehensive eligibility criteria", "Detailed feedback messages"],
-      technologies: ["Python", "Input Validation", "Conditional Logic", "User Interface"],
-      icon: <CheckCircle className="h-8 w-8 text-white" />,
+      title: "AI Chatbot Assistant",
+      description: "An intelligent conversational agent designed to provide instant support and accurate information using advanced natural language processing.",
+      features: ["Instant responses", "NLP processing", "Context awareness", "Multilingual support", "API integration"],
+      technologies: ["Python", "OpenAI", "React", "Flask"],
+      icon: <Bot className="h-8 w-8 text-white" />, 
       gradient: "bg-gradient-to-br from-blue-500 to-indigo-600",
       delay: 400,
-      codeUrl: "https://github.com/Narasimha-jampana",
-      demoUrl: ""
+      codeUrl: "https://github.com/Narasimha-jampana/AI-Chatbot",
+      demoUrl: "https://narasimha-jampana.web.app"
     },
     {
-      title: "Bike License Eligibility Program",
-      description: "A specialized application for checking motorcycle license eligibility. Evaluates age requirements, documentation status, and provides guidance for license application process.",
-      features: ["Multi-criteria eligibility check", "Document requirement validation", "Age and regulation compliance", "Application guidance system", "Status reporting and recommendations"],
-      technologies: ["Python", "Validation Logic", "Data Processing", "User Guidance"],
-      icon: <Bike className="h-8 w-8 text-white" />,
+      title: "Multi-Language Code Converter",
+      description: "A powerful developer utility that translates code snippets between different programming languages accurately while maintaining syntax integrity.",
+      features: ["Multi-language support", "Syntax highlighting", "Real-time conversion", "Code optimization", "User-friendly interface"],
+      technologies: ["JavaScript", "React", "PrismJS", "Node.js"],
+      icon: <Code2 className="h-8 w-8 text-white" />,
       gradient: "bg-gradient-to-br from-purple-500 to-pink-600",
       delay: 600,
-      codeUrl: "https://github.com/Narasimha-jampana",
-      demoUrl: ""
+      codeUrl: "https://github.com/Narasimha-jampana/Code-Converter",
+      demoUrl: "https://narasimha-jampana.web.app"
+    },
+    {
+      title: "SLP Doctor - Voice Therapy",
+      description: "A specialized health-tech application for Speech-Language Pathologists to assist with voice frequency analysis and therapy progress tracking.",
+      features: ["Voice analysis", "Progress tracking", "Therapy modules", "Audio recording", "Report generation"],
+      technologies: ["React", "Web Audio API", "Firebase", "Chart.js"],
+      icon: <Activity className="h-8 w-8 text-white" />,
+      gradient: "bg-gradient-to-br from-orange-500 to-rose-600",
+      delay: 800,
+      codeUrl: "https://github.com/Narasimha-jampana/SLP-Doctor",
+      demoUrl: "https://narasimha-jampana.web.app"
     }
   ];
 
